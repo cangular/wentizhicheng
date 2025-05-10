@@ -1,0 +1,14 @@
+<view style='width: 100%; height: 18vw;'></view>
+
+<view class="home_img_container">
+  <image src="http://127.0.0.1/images/壁纸4.png" class="home_img"></image>
+</view>
+
+<view class="container">
+  <van-button class="logout_btn" size="large" bindtap="logout" class="logout_btn" type="primary">
+    <text style="font-size: 40rpx;">退出登录</text>
+  </van-button>
+  <mp-dialog title="退出登录" show="{{isShow}}" bindbuttontap="confirmLogout" buttons="{{buttons}}">
+    <view>确认退出吗？</view>
+  </mp-dialog>
+</view>

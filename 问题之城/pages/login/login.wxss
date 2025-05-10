@@ -1,0 +1,74 @@
+/* pages/login/login.wxss */
+/* 最大的父元素 */
+image{
+  position:fixed;
+  left:0;
+  bottom:0;
+  display:block;
+  width:100%;
+  height:100%;
+  z-index: -999;
+}
+.v1 {
+  display: block;
+  position: absolute;
+  width: 100%;
+}
+/* 白色区域 */
+.v1 .v2 {
+  position: relative;
+  margin-top: 150rpx;
+  left: 100rpx;
+  width: 545rpx;
+  height: 600rpx;
+  border-radius: 50rpx;
+}
+
+/* 白色区域内的登录文本 */
+.v1 .v2 .dltext {
+  margin-top: 50rpx;
+  position: absolute;
+  margin-left: 205rpx;
+  width: 150rpx;
+  height: 100rpx;
+  font-size: 60rpx;
+  color: #ffffff;
+  line-height: 100rpx;
+  letter-spacing: 2rpx;
+}
+.v1 .v2 .login-input{
+  width: 100%;
+  height: 100%;
+  margin-top: 200rpx;
+
+  position: absolute;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+/* 登录按钮容器view */
+.v1 .v2 .login {
+  width: 480rpx;
+  height: 90rpx;
+  position: absolute;
+  margin-top: 515rpx;
+  margin-left: 25rpx;
+  text-align:center;
+  display: table-cell;
+  vertical-align: middle;
+  justify-content: center;
+
+}
+
+
+/* 登录按钮 */
+.v1 .v2 .login .btn-login {
+  padding: 0rpx;
+  line-height: 90rpx;
+  font-size: 35rpx;
+  width: 100%;
+  height: 100%;
+  border-radius: 5rpx;
+  vertical-align: middle;
+  justify-content: center;
+}

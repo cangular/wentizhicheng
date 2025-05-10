@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "gpt.proxy",
+      "type": "com.wuzj.config.ChatGptConfig",
+      "sourceType": "com.wuzj.config.ChatGptConfig"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

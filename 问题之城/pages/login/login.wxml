@@ -1,0 +1,21 @@
+<view class="page">
+  <image src="http://127.0.0.1/images/好看的壁纸.jpg"></image>
+</view>
+
+<view class="v1" style="height:{{clientHeight?clientHeight+'px':'auto'}}">
+
+  <!-- v2父容器  子view使用绝对布局 -->
+  <view class="v2">
+    <view class="dltext" style="width: 232rpx; height: 92rpx; display: block; box-sizing: border-box; left: 0rpx; top: -2rpx">登录</view>
+
+    <!-- 账号 -->
+      <van-cell-group center class="login-input">
+        <van-field value="{{ username }}" clearable label="用户名" placeholder="请输入用户名" bind:input="getUser" />
+
+        <van-field value="{{ password }}" type="password" label="密码" placeholder="请输入密码" border="{{ false }}" bind:input="getPassword" />
+      </van-cell-group>
+    <view class="login">
+      <van-button class="btn-login" type="info" size="large" bindtap="goadmin"><text style="font-size: 37rpx;">登录</text></van-button>
+    </view>
+  </view>
+</view>

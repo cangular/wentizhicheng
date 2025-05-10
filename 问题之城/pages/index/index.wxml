@@ -1,0 +1,31 @@
+<!--index.wxml-->
+
+<image class="index_img" src="http://127.0.0.1/images/问题之城.png" />
+
+<van-row>
+  <van-col span="12">
+    <button style="height: 225rpx; width: 340rpx; background:  linear-gradient(to right, #f1a706, #eb0f2c); position: relative; margin-top: 20rpx;" bind:tap="parent">
+      <text class="index_text">家庭教养</text>
+    </button>
+  </van-col>
+  <van-col span="12">
+    <button style="height: 225rpx; width: 340rpx; background:  linear-gradient(to right, #1cc706 , #d68d05); position: relative;  margin-top: 20rpx;" bind:tap="child">
+      <text class="index_text">学习解压</text>
+    </button>
+  </van-col>
+</van-row>
+
+<van-row>
+  <van-col span="12">
+    <button style="height: 225rpx; width: 340rpx; background:  linear-gradient(to right, #037c03, #042b80); position: relative;  margin-top: 30rpx;" bind:tap="question">
+      <text class="index_text">问题之城</text>
+    </button>
+  </van-col>
+
+
+  <van-col span="12">
+    <button style="height: 225rpx; width: 340rpx; background:  linear-gradient(to right, #03A9F4, #7C4DFF); position: relative;  margin-top: 30rpx;" open-type="contact" bindcontact="handleContact" session-from="sessionFrom">
+      <text class="index_text">人工问答</text>
+    </button>
+  </van-col>
+</van-row>
